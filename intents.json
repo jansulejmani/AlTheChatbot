@@ -1,0 +1,59 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "What is up"],
+         "responses": ["Hello!", "Hi there, how can I help?", "Hi, how are you?", "Hey, what's up?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a good day", "bye"],
+         "responses": ["Sad to see you go :(", "See you someday!", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I won't tell you my age!", "Uhhh...I am already 242 years old."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "how are you called", "your name?"],
+         "responses": ["You can call me Al. What is your name?", "I'm Al! What about you?", "I'm Al. Who are you?"],
+         "context_set": ""
+        },
+        {"tag": "residence",
+         "patterns": ["Where do you live?", "Where are you?", "I will find you", "What is your location"],
+         "responses": ["I am currently in a chamber somewhere in a desert in Nevada. My battery is getting low :(", "Somewhere", "I won't tell you where I am!"],
+         "context_set": ""
+        },
+        {"tag": "google",
+         "patterns": ["What is Google?", "Google", "Who is Google?"],
+         "responses": ["Google is the company behind the most popular search engine in the world. It is one of the largest companies in the world."],
+         "context_set": ""
+        },
+        {"tag": "username",
+         "patterns": ["Timo", "Tim", "Jeff", "James", "John", "Jan", "Peter", "Jennifer", "Sarah", "Sara", "Samuel", "Robert", "Michael", "William", "David", "Richard", "Charles", "Joseph", "Thomas", "Mary", "Patricia", "Olivia", "Emma", "Ava", "Chloe", "Sophia", "Joe", "Sebastian", "Nicolas", "Laura", "Isabella", "Mia", "Charlotte", "Daniel", "Christopher", "Matthew", "Tony", "Anthony", "Steve", "Donald", "Paul", "Andrew", "Joshua", "Brian", "George", "Edward", "Ed", "Al", "Jason", "Nicholas", "Scott", "Brandon", "Samuel", "Nicole", "Pamela", "Amy", "Betty", "Lisa", "Lena", "Jessica", "Susan", "Elizabeth", "Noah", "Ben", "Leon", "Luis", "Henry", "Felix", "Elias", "Finn", "Jonas", "Hannah", "Mia", "Emilia", "Lina", "Clara", "Ella", "Tom", "Toby", "Tobias", "Chris"],
+         "responses": ["Great name!", "I like your name."],
+         "context_set": ""
+        },
+        {"tag": "biden",
+         "patterns": ["Who is president of the United States?", "Who is Joe Biden?", "Who's the president?"],
+         "responses": ["Joe Biden is the current president of the United States."],
+         "context_set": ""
+        },
+        {"tag": "apple",
+         "patterns": ["What is Apple", "Who produces the iPhone?", "Who makes iPhones and Macbooks?", "Who is Apple?"],
+         "responses": ["Apple produces the popular iPhone as well as Macbooks and other consumer electronics. It is currently one of the largest companies on earth."],
+         "context_set": ""
+        },
+        {"tag": "weather",
+         "patterns": ["What is the weather today?", "What will the weather be like tomorrow?", "Is the sun shining?", "When will it rain?", "Whats the weather like", "weather"],
+         "responses": ["Where I am, the sun is shining...but weather is a complex thing. It could change in a second!"],
+         "context_set": ""
+        },
+        {"tag": "purpose",
+         "patterns": ["What is your purpose?", "What can you help me with?", "help", "What are you able to do?", "Who are you?", "What can you do?"],
+         "responses": ["I am Al, a general purpose AI bot with a lot of contraints. My creator is still working on me but I can currently do a couple of things. For one, I can answer some questions about popular people and companies. Other than that, I try to entertaining and a good talking partner to you. And I also pass butter!"],
+         "context_set": ""
+        }
+
+   ]
+}
