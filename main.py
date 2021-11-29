@@ -1,5 +1,4 @@
 import nltk
-nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 import numpy
@@ -101,6 +100,7 @@ def bag_of_words(s, words):
 
 def chat():
 	print("Start talking with the bot... (type quit to stop)")
+	print("Ask him anything about popular companies like Apple, popular people like Tom Hanks, or countries like Germany.")
 	while True:
 		inp = input("You: ")
 		if inp.lower() == "quit":
